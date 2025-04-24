@@ -2,7 +2,7 @@
 /*
 Plugin Name: th23 Specials
 Description: Adjust WordPress behaviour to own needs
-Version: 6.0.0
+Version: 6.0.1
 Author: Thorsten Hartmann (th23)
 Author URI: https://th23.net
 License: GPL-3.0-or-later
@@ -33,7 +33,7 @@ class th23_specials {
 		$this->plugin['file'] = __FILE__;
 		$this->plugin['basename'] = plugin_basename($this->plugin['file']);
 		$this->plugin['dir_url'] = plugin_dir_url($this->plugin['file']);
-		$this->plugin['version'] = '6.0.0';
+		$this->plugin['version'] = '6.0.1';
 
 		// Load plugin options
 		$this->options = (array) get_option($this->plugin['slug']);
