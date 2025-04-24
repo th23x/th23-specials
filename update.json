@@ -10,34 +10,34 @@
     "contributors": {
         "th23": {
             "profile": "https://profiles.wordpress.org/th23/",
-            "avatar": "https://thorstenhartmann.de/avatar.png?v=6.0.0",
+            "avatar": "https://thorstenhartmann.de/avatar.png?v=6.0.1",
             "display_name": "Thorsten"
         }
     },
     "homepage": "https://github.com/th23x/th23-specials",
-    "last_updated": "2025-04-20 10:15:00",
-    "version": "6.0.0",
-    "download_link": "https://github.com/th23x/th23-specials/releases/latest/download/th23-specials-v6.0.0.zip",
+    "last_updated": "2025-04-24 10:15:00",
+    "version": "6.0.1",
+    "download_link": "https://github.com/th23x/th23-specials/releases/latest/download/th23-specials-v6.0.1.zip",
     "requires_php": "8.0",
     "requires": "4.2",
     "tested": "6.8",
     "banners": {
-        "low": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/banner-772x250.jpg?v=6.0.0",
-        "high": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/banner-1544x500.jpg?v=6.0.0",
-        "2x": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/banner-1544x500.jpg?v=6.0.0",
-        "1x": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/banner-772x250.jpg?v=6.0.0"
+        "low": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/banner-772x250.jpg?v=6.0.1",
+        "high": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/banner-1544x500.jpg?v=6.0.1",
+        "2x": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/banner-1544x500.jpg?v=6.0.1",
+        "1x": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/banner-772x250.jpg?v=6.0.1"
     },
     "screenshots": {
         "1": {
-            "src": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-1.jpg?v=6.0.0",
+            "src": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-1.jpg?v=6.0.1",
             "caption": "Settings section in the admin dashboard with easy to reach options"
         },
         "2": {
-            "src": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-2.jpg?v=6.0.0",
+            "src": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-2.jpg?v=6.0.1",
             "caption": "Category selection (when limited to one per post) via radion buttons in the quick edit view"
         },
         "3": {
-            "src": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-3.jpg?v=6.0.0",
+            "src": "https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-3.jpg?v=6.0.1",
             "caption": "Enforced \"read more\" block in the Gutenberg / block editor"
         }
     },
@@ -45,7 +45,7 @@
         "v6.0.0": "<ul><li><p>n/a</p></li></ul>"
     },
     "icons": {
-        "1x": "assets/icon-square.png?v=6.0.0"
+        "1x": "assets/icon-square.png?v=6.0.1"
     },
     "author": "<a href=\"https://profiles.wordpress.org/th23/\">Thorsten</a>",
     "author_profile": "https://profiles.wordpress.org/th23/",
@@ -55,7 +55,7 @@
         "description": "<p>Essentials to customize Wordpress via simple settings, SMTP, title highlight, category selection, more separator, sticky posts, remove clutter, ...</p><p>Customize your Wordpress website even more to your needs via <strong>simple admin settings</strong> instead of code modifications.</p><p>Setting up new websites from time to time I realized, that I keep using <strong>similar sets of modifications over and over again</strong>. This plugin gives you a wide range of modifications at hand <strong>without any core or theme code changes</strong> - making them persistent across updates or switching to another theme.</p><p>th23 Specials core features include (all available as options in admin dashboard):</p><ul><li>Mail sending via <strong>SMTP server</strong> instead of default PHP mail function - and with custom subject prefix</li><li><strong>Revision and edit restrictions</strong> for posts and pages</li><li><strong>Highlighting in titles</strong> of posts and pages - for custom styling via theme</li><li><strong>Category selection</strong> via radio button, forcing single category assignment and option to restrict available categories - via Classic and Gutenberg / Block editor</li><li><strong>Excerpts</strong> for pages</li><li><strong>Sticky posts</strong> also sticky on archive pages</li><li>Disabling <strong>author links and archives</strong></li><li>Enforcing usage of <strong>more tag / block / separator</strong> in posts and pages - preventing too long full text display on home and overview pages</li><li>Disable various <strong>headers</strong> - core version info, links, jQuery Migrate, inline CSS, emojis, oEmbed, legacy contact options</li></ul><h3>Usage</h3><p>Simply install plugin and choose customizations required from the plugin settings page. Few options involve further actions to achieve required result - <strong>see below and FAQ section</strong> for more details.</p><p>For <strong>highlighting in post / page titles</strong>, put part to highlight in between <code>*matching stars*</code> in the editor. This part will be enclosed by <code><span></span></code> tags in the HTML on the frontend, allowing styling by theme via the CSS selector <code>.entry-title span</code>.</p><blockquote style=\"padding: 0 0.5em; border-left: 5px solid rgb(9, 105, 218);\"><div style=\"color: rgb(9, 105, 218);\">&#128488;&#65039; <strong>NOTE</strong></div><p>Some options change important core functionality of Wordpress - make sure you <strong>properly test your website</strong> before usage in production environment!</p></blockquote>",
         "installation": "<p>For a manual installation upload extracted <code>th23-specials</code> folder to your <code>wp-content/plugins</code> directory.</p><p>The plugin is <strong>configured via its settings page in the admin area</strong>. Find all options under <code>Settings</code> &#8594; <code>th23 Specials</code>. The options come with a description of the setting and its behavior directly next to the respective settings field.</p>",
         "faq": "<h4>Is there a way to identify <strong>existing posts / pages that do not comply</strong> with the one category only requirement or that are missing the \"read more\" block / tag?</h4><div><p>Yes, there are links in the descriptions on the th23 Specials settings page, <strong>next to the respective option</strong> to search for \"non-compliant\" posts / pages.</p><p>Upon a click on this link you will see all currently non-compliant posts / pages. You can modify these by clicking on their titles, which loads them into your default editor.</p></div><h4>Some <strong>settings seem to have no effect</strong> - eg oEmbed features are still active depsite deactivated?</h4><div><p>This might be happening as <strong>some options can be \"overruled\"</strong> by settings by your theme. For settings that might be affected, please see the description on the settings page.</p><p>To change such settings, please <strong>check your active theme</strong> and adjust them there, if required.</p></div>",
-        "changelog": "<h4>v6.0.0</h4><ul><li><p>n/a: first public release</p></li></ul>",
-        "screenshots": "<ol><li><a href=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-1.jpg?v=6.0.0\"><img src=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-1.jpg?v=6.0.0\" alt=\"Settings section in the admin dashboard with easy to reach options\"></a><p>Settings section in the admin dashboard with easy to reach options</p></li><li><a href=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-2.jpg?v=6.0.0\"><img src=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-2.jpg?v=6.0.0\" alt=\"Category selection (when limited to one per post) via radion buttons in the quick edit view\"></a><p>Category selection (when limited to one per post) via radion buttons in the quick edit view</p></li><li><a href=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-3.jpg?v=6.0.0\"><img src=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-3.jpg?v=6.0.0\" alt=\"Enforced \"read more\" block in the Gutenberg / block editor\"></a><p>Enforced \"read more\" block in the Gutenberg / block editor</p></li></ol>"
+        "changelog": "<h4>v6.0.1</h4><ul><li><p>fix: update th23 Admin class to v1.6.1</p></li></ul><h4>v6.0.0</h4><ul><li><p>n/a: first public release</p></li></ul>",
+        "screenshots": "<ol><li><a href=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-1.jpg?v=6.0.1\"><img src=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-1.jpg?v=6.0.1\" alt=\"Settings section in the admin dashboard with easy to reach options\"></a><p>Settings section in the admin dashboard with easy to reach options</p></li><li><a href=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-2.jpg?v=6.0.1\"><img src=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-2.jpg?v=6.0.1\" alt=\"Category selection (when limited to one per post) via radion buttons in the quick edit view\"></a><p>Category selection (when limited to one per post) via radion buttons in the quick edit view</p></li><li><a href=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-3.jpg?v=6.0.1\"><img src=\"https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-3.jpg?v=6.0.1\" alt=\"Enforced \"read more\" block in the Gutenberg / block editor\"></a><p>Enforced \"read more\" block in the Gutenberg / block editor</p></li></ol>"
     }
 }

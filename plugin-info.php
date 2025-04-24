@@ -40,9 +40,9 @@ $plugin = array(
 	// 'support_url' => '',
 
 	// latest version (mandatory)
-	'last_updated' => '2025-04-20 10:15:00',
-	'version' => '6.0.0',
-	'download_link' => 'https://github.com/th23x/th23-specials/releases/latest/download/th23-specials-v6.0.0.zip',
+	'last_updated' => '2025-04-24 10:15:00',
+	'version' => '6.0.1',
+	'download_link' => 'https://github.com/th23x/th23-specials/releases/latest/download/th23-specials-v6.0.1.zip',
 
 	// requirements (mandatory)
 	'requires_php' => '8.0',
@@ -131,6 +131,9 @@ To change such settings, please **check your active theme** and adjust them ther
 
 	// changelog (mandatory, sorted by version, content can be a string or an array for a list)
 	'changelog' => array(
+		'v6.0.1' => array(
+			'fix: update th23 Admin class to v1.6.1',
+		),
 		'v6.0.0' => array(
 			'n/a: first public release',
 		),

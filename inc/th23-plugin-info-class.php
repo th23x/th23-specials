@@ -473,7 +473,7 @@ class th23_plugin_info {
 		// faq (mandatory)
 		$wp .= '== Frequently Asked Questions ==' . "\n\n";
 		foreach($this->plugin['faq'] as $id => $qa) {
-			$wp .= '= ' . $qa['q'] . ' =' . "\n\n";
+			$wp .= '= ' . preg_replace("/\*\*(.*?)\*\*/", "$1", $qa['q']) . ' =' . "\n\n";
 			$wp .= $this->simple_md($qa['a']) . "\n\n";
 		}
 		$wp .= "\n";

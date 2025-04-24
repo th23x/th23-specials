@@ -31,11 +31,13 @@ class th23_specials_admin extends th23_specials {
 		// icon: "square" 48 x 48px (footer) / "horizontal" 36px height (header, width irrelevant) / both (resized if larger)
 		$this->plugin['icon'] = array('square' => 'img/icon-square.png', 'horizontal' => 'img/icon-horizontal.png');
 		$this->plugin['support_url'] = 'https://github.com/th23x/th23-specials/issues';
+		// update: alternative update source
+		$this->plugin['update_url'] = 'https://github.com/th23x/th23-specials/releases/latest/download/update.json';
 
 		// Load and setup required th23 Admin class
 		if(file_exists($this->plugin['dir_path'] . '/inc/th23-admin-class.php')) {
 			require($this->plugin['dir_path'] . '/inc/th23-admin-class.php');
-			$this->admin = new th23_admin_v160($this);
+			$this->admin = new th23_admin_v161($this);
 		}
 		if(!empty($this->admin)) {
 			add_action('init', array(&$this, 'setup_admin_class'));
@@ -301,12 +303,10 @@ class th23_specials_admin extends th23_specials {
 
 		// disable_categories
 
-		$description = __('Specified categories are not available for posts to be assigned in editor - list of respective IDs, separated by comma, empty for no restrictions', 'th23-specials');
-		$description .= '<br />' . __('Note: See notes for option above', 'th23-specials');
 		$this->plugin['options']['disable_categories'] = array(
 			'render' => function() { return '<div>' . __('Disabled categories for posts', 'th23-specials') . '</div>'; },
 			'default' => '',
-			'description' => $description,
+			'description' => __('Specified categories are not available for posts to be assigned in editor - list of respective IDs, separated by comma, empty for no restrictions', 'th23-specials') . '<br />' . __('Note: See notes for option above', 'th23-specials'),
 		);
 
 		// order_categories
