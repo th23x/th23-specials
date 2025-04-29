@@ -4,7 +4,7 @@ Donate link: https://github.com/th23x/th23-specials
 Tags: essentials, filter, smtp, header
 Requires at least: 4.2
 Tested up to: 6.8
-Stable tag: 6.0.1
+Stable tag: 6.0.2
 Requires PHP: 8.0
 License: GPL-3.0
 License URI: https://github.com/th23x/th23-specials/blob/main/LICENSE
@@ -51,13 +51,13 @@ The plugin is **configured via its settings page in the admin area**. Find all o
 
 == Frequently Asked Questions ==
 
-= Is there a way to identify **existing posts / pages that do not comply** with the one category only requirement or that are missing the "read more" block / tag? =
+= Is there a way to identify existing posts / pages that do not comply with the one category only requirement or that are missing the "read more" block / tag? =
 
 Yes, there are links in the descriptions on the th23 Specials settings page, **next to the respective option** to search for "non-compliant" posts / pages.
 
 Upon a click on this link you will see all currently non-compliant posts / pages. You can modify these by clicking on their titles, which loads them into your default editor.
 
-= Some **settings seem to have no effect** - eg oEmbed features are still active depsite deactivated? =
+= Some settings seem to have no effect - eg oEmbed features are still active depsite deactivated? =
 
 This might be happening as **some options can be "overruled"** by settings by your theme. For settings that might be affected, please see the description on the settings page.
 
@@ -73,9 +73,15 @@ To change such settings, please **check your active theme** and adjust them ther
 
 == Changelog ==
 
+= v6.0.2 =
+
+* enhancement: upgrade to th23 Plugin Info class 1.0.0
+* fix: upgrade to th23 Admin class 1.6.2
+
 = v6.0.1 =
 
 * fix: update th23 Admin class to v1.6.1
+* fix: typos and wording adjustments
 
 = v6.0.0 =
 
@@ -84,6 +90,10 @@ To change such settings, please **check your active theme** and adjust them ther
 
 == Upgrade Notice ==
 
-= v6.0.0 =
+= v6.0.2 =
+
+* n/a
+
+= v6.0.1 =
 
 * n/a

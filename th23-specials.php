@@ -1,17 +1,24 @@
 <?php
 /*
 Plugin Name: th23 Specials
-Description: Adjust WordPress behaviour to own needs
-Version: 6.0.1
-Author: Thorsten Hartmann (th23)
-Author URI: https://th23.net
-License: GPL-3.0-or-later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Description: Essentials to customize Wordpress via simple settings, SMTP, title highlight, category selection, more separator, sticky posts, remove clutter, ...
+Plugin URI: https://github.com/th23x/th23-specials
+
+Author: Thorsten (th23)
+Author URI: https://thorstenhartmann.de
+Author IMG: https://thorstenhartmann.de/avatar.png
+
+License: GPL-3.0
+License URI: https://github.com/th23x/th23-specials/blob/main/LICENSE
+
+Version: 6.0.2
+
+Requires at least: 4.2
+Tested up to: 6.8
+Requires PHP: 8.0
+
 Text Domain: th23-specials
 Domain Path: /lang
-
-Coded 2014-2025 by Thorsten Hartmann (th23)
-https://th23.net/
 */
 
 // Security - exit if accessed directly
@@ -33,7 +40,7 @@ class th23_specials {
 		$this->plugin['file'] = __FILE__;
 		$this->plugin['basename'] = plugin_basename($this->plugin['file']);
 		$this->plugin['dir_url'] = plugin_dir_url($this->plugin['file']);
-		$this->plugin['version'] = '6.0.1';
+		$this->plugin['version'] = '6.0.2';
 
 		// Load plugin options
 		$this->options = (array) get_option($this->plugin['slug']);
