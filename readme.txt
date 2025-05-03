@@ -4,7 +4,7 @@ Donate link: https://github.com/th23x/th23-specials
 Tags: essentials, filter, smtp, header
 Requires at least: 4.2
 Tested up to: 6.8
-Stable tag: 6.0.2
+Stable tag: 6.0.3
 Requires PHP: 8.0
 License: GPL-3.0
 License URI: https://github.com/th23x/th23-specials/blob/main/LICENSE
@@ -73,6 +73,10 @@ To change such settings, please **check your active theme** and adjust them ther
 
 == Changelog ==
 
+= v6.0.3 =
+
+* fix: upgrade to th23 Admin class 1.7.0, removing some inconsistencies
+
 = v6.0.2 =
 
 * enhancement: upgrade to th23 Plugin Info class 1.0.0
@@ -89,6 +93,10 @@ To change such settings, please **check your active theme** and adjust them ther
 
 
 == Upgrade Notice ==
+
+= v6.0.3 =
+
+* n/a
 
 = v6.0.2 =
 

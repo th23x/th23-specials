@@ -21,20 +21,22 @@ class th23_specials_admin extends th23_specials {
 			'base' => 'options-general.php',
 			'permission' => 'manage_options',
 		);
-		// icon: "square" 48 x 48px (footer) / "horizontal" 36px height (header, width irrelevant) / both (resized if larger)
+		// icons "square" 48 x 48px (footer) and "horizontal" 36px height (header, width irrelevant) / both (resized if larger)
 		$this->plugin['icon'] = array('square' => 'img/icon-square.png', 'horizontal' => 'img/icon-horizontal.png');
 		$this->plugin['support_url'] = 'https://github.com/th23x/th23-specials/issues';
-		// update: alternative update source
-		$this->plugin['update_section'] = true;
-		$this->plugin['update_url'] = 'https://github.com/th23x/th23-specials/releases/latest/download/update.json';
+		$this->plugin['requirement_notices'] = array();
 
 		// Load and setup required th23 Admin class
 		if(file_exists($this->plugin['dir_path'] . '/inc/th23-admin-class.php')) {
 			require($this->plugin['dir_path'] . '/inc/th23-admin-class.php');
-			$this->admin = new th23_admin_v162($this);
+			$this->admin = new th23_admin_v170($this);
 		}
 		if(!empty($this->admin)) {
 			add_action('init', array(&$this, 'setup_admin_class'));
+			// alternative update source for non-WP.org hosted plugin
+			// important: remove following two lines for WP.org-hosted plugin
+			$this->plugin['update_url'] = 'https://github.com/th23x/th23-specials/releases/latest/download/update.json';
+			add_filter('site_transient_update_plugins', array(&$this->admin, 'update_download'));
 		}
 		else {
 			add_action('admin_notices', array(&$this, 'error_admin_class'));

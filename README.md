@@ -1,4 +1,4 @@
-# <img alt="th23 Specials" src="https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/icon-horizontal.png?v=6.0.2" width="200">
+# <img alt="th23 Specials" src="https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/icon-horizontal.png?v=6.0.3" width="200">
 
 Essentials to customize Wordpress via simple settings, SMTP, title highlight, category selection, more separator, sticky posts, remove clutter, ...
 
@@ -21,9 +21,9 @@ th23 Specials core features include (all available as options in admin dashboard
 * Enforcing usage of **more tag / block / separator** in posts and pages - preventing too long full text display on home and overview pages
 * Disable various **headers** - core version info, links, jQuery Migrate, inline CSS, emojis, oEmbed, legacy contact options
 
-> <img alt="" title="Settings section in the admin dashboard with easy to reach options" src="https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-1.jpg?v=6.0.2" width="400">
-> <img alt="" title="Category selection (when limited to one per post) via radion buttons in the quick edit view" src="https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-2.jpg?v=6.0.2" width="400">
-> <img alt="" title="Enforced "read more" block in the Gutenberg / block editor" src="https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-3.jpg?v=6.0.2" width="400">
+> <img alt="" title="Settings section in the admin dashboard with easy to reach options" src="https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-1.jpg?v=6.0.3" width="400">
+> <img alt="" title="Category selection (when limited to one per post) via radion buttons in the quick edit view" src="https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-2.jpg?v=6.0.3" width="400">
+> <img alt="" title="Enforced "read more" block in the Gutenberg / block editor" src="https://raw.githubusercontent.com/th23x/th23-specials/refs/heads/main/assets/screenshot-3.jpg?v=6.0.3" width="400">
 
 
 ## ⚙️ Setup

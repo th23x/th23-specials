@@ -155,6 +155,9 @@ To change such settings, please **check your active theme** and adjust them ther
 // changelog [mandatory]
 // note: sorted by version, content can be a string or an array for a list, at least info for current version must be present
 $plugin['changelog'] = array(
+	'v6.0.3' => array(
+		'fix: upgrade to th23 Admin class 1.7.0, removing some inconsistencies',
+	),
 	'v6.0.2' => array(
 		'enhancement: upgrade to th23 Plugin Info class 1.0.0',
 		'fix: upgrade to th23 Admin class 1.6.2',
@@ -171,6 +174,7 @@ $plugin['changelog'] = array(
 // upgrade_notice [mandatory]
 // note: sorted by version, content can be a string or an array for a list, at least info for current version must be present
 $plugin['upgrade_notice'] = array(
+	'v6.0.3' => 'n/a',
 	'v6.0.2' => 'n/a',
 	'v6.0.1' => 'n/a',
 );

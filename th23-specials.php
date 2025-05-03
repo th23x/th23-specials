@@ -11,7 +11,7 @@ Author IMG: https://thorstenhartmann.de/avatar.png
 License: GPL-3.0
 License URI: https://github.com/th23x/th23-specials/blob/main/LICENSE
 
-Version: 6.0.2
+Version: 6.0.3
 
 Requires at least: 4.2
 Tested up to: 6.8
@@ -40,7 +40,7 @@ class th23_specials {
 		$this->plugin['file'] = __FILE__;
 		$this->plugin['basename'] = plugin_basename($this->plugin['file']);
 		$this->plugin['dir_url'] = plugin_dir_url($this->plugin['file']);
-		$this->plugin['version'] = '6.0.2';
+		$this->plugin['version'] = '6.0.3';
 
 		// Load plugin options
 		$this->options = (array) get_option($this->plugin['slug']);
